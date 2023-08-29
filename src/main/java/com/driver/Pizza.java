@@ -60,13 +60,17 @@ public class Pizza {
             if(isVeg) {
                 this.bill += "Base Price Of The Pizza: 300"+"\n";
                 if(isExtraCheeseAdded) this.bill += "Extra Cheese Added: 80" + "\n";
+                else this.bill += "Extra Cheese Added: 0" + "\n";
                 if(isExtraToppingsAdded) this.bill += "Extra Toppings Added: 70" + "\n";
+                else this.bill += "Extra Toppings Added: 0" + "\n";
                 this.bill += "Paperbag Added: 20"+"\n";
                 this.bill += "Total Price: " + this.getPrice();
             }else{
                 this.bill += "Base Price Of The Pizza: 400"+"\n";
                 if(isExtraCheeseAdded) this.bill += "Extra Cheese Added: 80" + "\n";
+                else this.bill += "Extra Cheese Added: 0" + "\n";
                 if(isExtraToppingsAdded) this.bill += "Extra Toppings Added: 120" + "\n";
+                else this.bill += "Extra Toppings Added: 0" + "\n";
                 this.bill += "Paperbag Added: 20"+"\n";
                 this.bill += "Total Price: " + this.getPrice();
             }
@@ -74,12 +78,16 @@ public class Pizza {
             if(isVeg) {
                 this.bill += "Base Price Of The Pizza: 300"+"\n";
                 if(isExtraCheeseAdded) this.bill += "Extra Cheese Added: 80" + "\n";
+                else this.bill += "Extra Cheese Added: 0" + "\n";
                 if(isExtraToppingsAdded) this.bill += "Extra Toppings Added: 70" + "\n";
+                else this.bill += "Extra Toppings Added: 0" + "\n";
                 this.bill += "Total Price: " + this.getPrice();
             }else{
                 this.bill += "Base Price Of The Pizza: 400"+"\n";
                 if(isExtraCheeseAdded) this.bill += "Extra Cheese Added: 80" + "\n";
+                else this.bill += "Extra Cheese Added: 0" + "\n";
                 if(isExtraToppingsAdded) this.bill += "Extra Toppings Added: 120" + "\n";
+                else this.bill += "Extra Toppings Added: 0" + "\n";
                 this.bill += "Total Price: " + this.getPrice();
             }
         }
